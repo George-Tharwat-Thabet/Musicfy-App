@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundofallpages"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/most_populer"
+        android:textColor="@color/textColorOfPages"
+        android:textSize="@dimen/textSizeOfArtistTextAndTitleOfSongs"
+        app:fontFamily="@font/amaranth"
+        tools:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/songs"
+        android:layout_width="match_parent"
+        android:layout_height="490dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/artist_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shapes_of_buttons"
+            android:text="@string/btnOfArtistActivity"
+            android:elevation="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorsOfIntentBtn"
+            android:textSize="@dimen/buttonsOfIntents" />
+    </RelativeLayout>
+</LinearLayout>

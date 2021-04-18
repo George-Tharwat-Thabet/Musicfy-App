@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="marginOfSplash">10dp</dimen>
+    <dimen name="textSizeOfSplash">40sp</dimen>
+    <dimen name="buttonsOfIntents">27sp</dimen>
+    <dimen name="textSizeOfArtistTextAndTitleOfSongs">35sp</dimen>
+</resources>
